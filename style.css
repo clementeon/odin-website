@@ -48,13 +48,7 @@ ul {
     width: 400px;
 }
 
-.lower-bar button {
-    color: black;
-    background-color: #F3F0EE;
-    border-radius: 5px;
-    padding: 10px;
-    border: none;
-}
+
 
 .fundamentals {
     background-color:#f3f0ee;
@@ -85,18 +79,20 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .blockquote {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px 0px;
+    
 }
 
 .quote-1,
 .quote-2,
 .quote-3{
-    padding: 10px;
     border-radius: 10px;
 }
 
@@ -109,6 +105,29 @@ ul {
 .quote-2,
 .quote-name {
     align-self: flex-end;
+}
+
+.ad{
+    background-color: #f49030;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 44px 64px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    color: black;
+    background-color: #F3F0EE;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
 }
 
 .footer {
