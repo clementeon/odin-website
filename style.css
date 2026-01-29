@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f0ee;
 }
 .header {
     background-color: #f49030;
@@ -79,10 +80,42 @@ ul {
     font-weight: bold;
 }
 
-.quote {
-    background-color: #f49030;
+.bottom {
+    background-color: #dfe0df;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.blockquote {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.quote-1,
+.quote-2,
+.quote-3{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.quote-1,
+.quote-3 {
+    align-self: flex-start;
+    margin-right: 128px;
+}
+
+.quote-2,
+.quote-name {
+    align-self: flex-end;
+}
+
+.footer {
+    background-color: #35364a;
+}
+
+.footer p {
+    color: 	#f3f0ee;
+    text-align: center;
 }
